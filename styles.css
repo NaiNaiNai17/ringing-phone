@@ -1,0 +1,60 @@
+body {
+   box-sizing: border-box;
+   /* margin: auto 0; */
+ background-color: rgb(255, 228, 225);
+
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25%
+   
+}
+.click {
+    display: flex;
+    background-color: rgb(255, 105, 180);
+    border-radius: 20px;
+    padding: 5px;
+    border-style: none;
+    
+}
+
+p {
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    font-weight: 800;
+}
+
+img {
+    height: 40px;
+    animation: ring 2s infinite;
+}
+
+@keyframes ring {
+    0% { transform: rotate(0); }
+    5% { transform: rotate(30deg); }
+    10% { transform: rotate(-28deg); }
+    15% {
+         transform: rotate(34deg) scale(1.5);
+         }
+    20% { transform: rotate(-32deg); }
+    25% { transform: rotate(30deg) scale(1); 
+         }
+    30% { transform: rotate(-28deg) scale(1);
+          }
+    35% { transform: rotate(26deg); }
+    40% { transform: rotate(-24deg); }
+    45% { transform: rotate(0); }
+    50% { transform: rotate(0); }
+    55% { transform: rotate(0); }
+    60% { transform: rotate(0); }
+    65% { transform: rotate(14deg)s; }
+    70% { transform: rotate(-12deg); }
+    75% { transform: rotate(10deg); }
+    80% { transform: rotate(-8deg); }
+    85% { transform: rotate(6deg); }
+    90% { transform: rotate(-4deg); }
+    95% { transform: rotate(2deg); }
+    100% { transform: rotate(-1deg); }
